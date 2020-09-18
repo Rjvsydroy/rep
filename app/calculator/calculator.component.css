@@ -1,0 +1,38 @@
+input {
+ border-style: double;
+ width: 150px;
+ }
+ button {
+ background-color: lightgray;
+ padding: 10px 10px;
+ font-size: 10px;
+
+ border-radius: 10px;
+ color: dark;
+ }
+ #bt1
+    {
+    position:fixed;
+    left:71px;
+    top:137px;
+    }
+  #bt2{
+    position:fixed;
+    left:162px;
+    top:137px;
+  }
+
+  #bt3{
+   position:fixed;
+   left:253px;
+   top: 137px
+   }
+   #bt4{
+      position:fixed;
+      left:343px;
+      top: 137px
+      }
+
+ label {
+ font-size: 20px;
+ }
