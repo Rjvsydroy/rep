@@ -1,0 +1,41 @@
+
+<table>
+  <tr>
+    <td>
+      <label for="v1">Premier nombre:</label>
+    </td>
+    <td>
+      <input name="v1" id="v1" value="{{v1Value | number: '1.0-2'}}" #v1>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <label for="v2">Second Nombre:</label>
+    </td>
+    <td>
+      <input name="v2" id="v2" value="{{v2Value | number: '1.0-2'}}" #v2>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <label for="result">Resultat:</label>
+    </td>
+    <td>
+      <input name="result" id="result" value="{{resultValue | number: '1.0-2'}}" #result>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <button id="bt1" (click)="add(v1.value,v2.value)">+</button>
+    </td>
+    <td>
+      <button id="bt2" (click)="moins(v1.value,v2.value)">-</button>
+    </td>
+    <td>
+      <button id="bt3" (click)="mult(v1.value,v2.value)">*</button>
+    </td>
+    <td>
+      <button id="bt4" (click)="div(v1.value,v2.value)">/</button>
+    </td>
+  </tr>
+</table>
